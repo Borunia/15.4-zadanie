@@ -46,8 +46,3 @@ console.log(multiply(6));
     const [, , firstName, ,lastName]=array;
     console.log(`The frist name is: ${firstName}`);
     console.log(`The last name is: ${lastName}`);
-
-
-
-
-
