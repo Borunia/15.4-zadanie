@@ -28,8 +28,8 @@ console.log(multiply(6));
    //using reduce() method
  const average5 = (...args) => {
 
-	const sum = args.reduce((suma, arg)=>{
-	return suma + arg;
+	const sum = args.reduce((sum2, arg)=>{
+	return sum2 + arg;
 	});
 
  return console.log(`Arithmetic average2: ${sum/args.length}`);
