@@ -6,7 +6,7 @@ console.log(`${a} ${b}`);
 
 //or 
 const strings2 = (c = 'Hello', d = 'world') => console.log(`${c} ${d}`);
-Strings2();
+strings2();
 
 //Task 2
 const multiply = (a, b = 1) => a * b;
