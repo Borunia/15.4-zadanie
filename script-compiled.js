@@ -5,7 +5,7 @@ const b = 'World';
 console.log(`${a} ${b}`);
 
 //or 
-const Strings2 = (c = 'Hello', d = 'world') => console.log(`${c} ${d}`);
+const strings2 = (c = 'Hello', d = 'world') => console.log(`${c} ${d}`);
 Strings2();
 
 //Task 2
